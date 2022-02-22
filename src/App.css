@@ -24,6 +24,12 @@
   .spacing{
     max-width: 300px;
   }
+  .mint {
+    position: absolute;
+    width: 200px;
+    top: 260px;
+    left: 40px;
+  }
 }
 
 .dappTitle{
