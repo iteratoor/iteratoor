@@ -24,7 +24,7 @@
   .spacing{
     max-width: 300px;
     position: absolute;
-    top: 140px;
+    top: 135px;
   }
   .mint {
     position: absolute;
@@ -168,7 +168,7 @@
 .spacing{
   position: absolute;
   left:40px;
-  top: 145px;
+  top: 150px;
   width: 400px;
 }
 
