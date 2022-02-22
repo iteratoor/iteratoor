@@ -1,38 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-image:
+  url(BG2.svg);
+  min-height: 300vh;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Inter', sans-serif;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+}
+@media screen and (max-width: 390px){
+  .dappTitle img {
+    max-width: 250px;
+  }
+  .copySpacing {
+    max-width: 250px;
+  }
+  .linkSpacing{
+    max-width: 250px;
+  }
+  .spacing{
+    max-width: 300px;
+  }
+}
+
+.dappTitle{
+  color: #565656;
+  position: absolute;
+  left: 40px;
+  height: 65px;
+  top: 70px;
+  font-weight: 600;
+  font-size: 72px;
+  letter-spacing: 0.015em;
+  font-family: 'Inter';
+  line-height: 72px;
+  background: linear-gradient(190deg, #29D9FF 29.41%, #F7B928 37.9%, #FF2407 50.09%, #0061BB 61.52%, #AB96E9 81.45%);
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 1px transparent;
+}
+
+.dappTitle img{
+  height: 72px;
+}
+.button{
+  position: absolute;
+  width: 144px;
+  height: 40px; /* to set the div visible, since without height it won't display if it does not have any elements inside */
+  right: 20px;
+  top: 20px;
+  border: double 2px transparent;
+  border-radius: 4px;
+  background-image: linear-gradient(#000,#000 ), linear-gradient(
+    190deg, #29D9FF, #F7B928, #FF2407, #0061BB, #AB96E9, #29D9FF, #F7B928, #FF2407, #0061BB, #AB96E9
+    );
+  background-size: 300%;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-position 1s;
 }
 
-.App-link {
-  color: #61dafb;
+.button:hover{
+  background-position: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.buttonConnected{
+  position: absolute;
+  width: 144px;
+  height: 40px; /* to set the div visible, since without height it won't display if it does not have any elements inside */
+  right: 20px;
+  top: 20px;
+  border: double 2px transparent;
+  border-radius: 4px;
+  background-image: linear-gradient(#000,#000 ), linear-gradient(
+    190deg, #29D9FF, #F7B928, #FF2407, #0061BB, #AB96E9, #29D9FF, #F7B928, #FF2407, #0061BB, #AB96E9
+    );
+  background-size: 300%;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  cursor: pointer;
+  animation: button-anim 4s infinite alternate;
+}
+
+@keyframes button-anim {
+  0% {
+    background-position: left;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    background-position: right;
   }
+}
+
+.mintButton{
+  width: 144px;
+  height: 40px; /* to set the div visible, since without height it won't display if it does not have any elements inside */
+  border: double 2px transparent;
+  border-radius: 4px;
+  background-image: linear-gradient(#000,#000 ), linear-gradient(190deg, #29D9FF, #F7B928, #FF2407, #0061BB, #AB96E9);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  cursor: pointer;
+  float: right;
+}
+
+.mintButtonNull{
+  width: 144px;
+  height: 40px; /* to set the div visible, since without height it won't display if it does not have any elements inside */
+  border: double 1px gray;
+  border-radius: 4px;
+  background-image: gray;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  cursor: pointer;
+  float: right;
+}
+
+.defaultText{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  color: white;
+  float: left;
+  text-align: left;
+}
+
+.spacing{
+  position: absolute;
+  left:40px;
+  top: 150px;
+  width: 400px;
+}
+
+.linkSpacing{
+  position: absolute;
+  left:40px;
+  top: 850px;
+  width: 400px;
+  text-align: right;
+}
+
+.linkSpacing img {
+  width:25px;
+  height:25px;
+  padding: 10px;
+}
+
+.copySpacing{
+  position: absolute;
+  width: 400px;
+  left:40px;
+  top: 900px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  color: white;
+  float: left;
+  text-align: left;
+}
+
+.figmaInfo{
+  background: -webkit-linear-gradient(208.94deg, #FE1A43, #295DE2, #00C2FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mint
+{
+  /*align-items:center;*/
+  position: absolute;
+  width: 200px;
+  top: 250px;
+  left: 40px;
+}
+.select{
+  float: left;
+}
+.selecta{
+  font-family: Inter;
+  font-size: 15px;
+  height: 44px;
+  width: 50px;
+  text-align: center;
+  border: double 2px transparent;
+  border-radius: 4px;
+  background-image: linear-gradient(#000,#000 ), linear-gradient(45deg, #29D9FF, #F7B928, #FF2407, #0061BB, #AB96E9);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  color: white;
+  display: flex;
+}
+
+.selectaNull{
+  font-family: Inter;
+  font-size: 15px;
+  height: 42px;
+  width: 50px;
+  text-align: center;
+  border: double 1px gray;
+  border-radius: 4px;
+  background-image: linear-gradient(#262626,#262626);
+  color: gray;
+  display: flex;
+}
+
+.hotCold {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  background: -webkit-radial-gradient(#FFF0D4, #F7B928, #FF2407, #82C3FF, #96DAE9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cactus {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  background: -webkit-radial-gradient(#FFFCF6, #FFC700, #FF8D07, #96E9B7, #E7FFB2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  background: -webkit-linear-gradient(208.94deg, #FFF7DB -9.85%, #FFE141 20.21%, #FF7E07 46.23%, #FF515B 55.48%, #F5E550 55.49%, #FFFFFF 79.37%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.indigloCopy{
+  background: -webkit-radial-gradient(#EBFF00 8.85%, #68FF33 21.35%, #00F0FF 36.46%, #00A3FF 55.21%, #8D7AFF 60.42%, #FFDBFB 65.63%, #ADCEFF 92.71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.roseGoldCopy{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  background: -webkit-radial-gradient(#FFFFFF 14.58%, #FFBDC1 23.96%, #F76628 32.29%, #C88152 40.1%, #F4FFB4 57.81%, #3385FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.aether{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  background: -webkit-linear-gradient(208.94deg, #DBFDFF -9.85%, #B1E3FF 20.21%, #62C6FF 46.23%, #5182FF 55.48%, #91E4FF 67.62%, #FFFFFF 79.37%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

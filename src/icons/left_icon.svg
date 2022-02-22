@@ -1,0 +1,39 @@
+<svg width="417" height="420" viewBox="0 0 417 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_df_1101_269)">
+<path d="M248.413 358.256C167.529 379.929 84.1718 331.115 62.2303 249.228V249.228C40.2887 167.341 88.0713 83.3895 168.956 61.7166V61.7166C249.84 40.0437 333.197 88.8569 355.138 170.744V170.744C377.08 252.631 329.297 336.583 248.413 358.256V358.256Z" stroke="url(#paint0_linear_1101_269)" stroke-width="12" shape-rendering="crispEdges"/>
+</g>
+<path d="M252.045 357.283C171.161 378.956 87.8037 330.143 65.8621 248.256V248.256C43.9205 166.369 91.7031 82.4168 172.587 60.7439V60.7439C253.472 39.071 336.829 87.8842 358.77 169.771V169.771C380.712 251.658 332.929 335.61 252.045 357.283V357.283Z" stroke="url(#paint1_linear_1101_269)" stroke-width="12"/>
+<path d="M254.17 267.691C260.785 270.648 268.25 265.807 268.25 258.562V253.283C268.25 249.149 265.706 245.441 261.848 243.953L182.188 213.234V213.234C179.829 212.433 179.816 209.073 182.188 208.312V208.312L261.901 177.052C265.731 175.55 268.25 171.856 268.25 167.743V162.406C268.25 155.165 260.793 150.324 254.179 153.272L154.929 197.514C151.323 199.121 149 202.699 149 206.647V214.204C149 218.148 151.319 221.724 154.92 223.333L254.17 267.691Z" fill="url(#paint2_radial_1101_269)"/>
+<defs>
+<filter id="filter0_df_1101_269" x="0.899414" y="0.570312" width="415.569" height="418.832" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1101_269"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1101_269" result="shape"/>
+<feGaussianBlur stdDeviation="25" result="effect2_foregroundBlur_1101_269"/>
+</filter>
+<linearGradient id="paint0_linear_1101_269" x1="-47.769" y1="79.0404" x2="454.642" y2="343.533" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF0D4"/>
+<stop offset="0.243631" stop-color="#F7B928"/>
+<stop offset="0.489592" stop-color="#FF2407"/>
+<stop offset="0.720583" stop-color="#82C3FF"/>
+<stop offset="0.979167" stop-color="#96DAE9"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1101_269" x1="-44.1372" y1="78.0678" x2="458.274" y2="342.56" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF0D4"/>
+<stop offset="0.243631" stop-color="#F7B928"/>
+<stop offset="0.489592" stop-color="#FF2407"/>
+<stop offset="0.720583" stop-color="#82C3FF"/>
+<stop offset="0.979167" stop-color="#96DAE9"/>
+</linearGradient>
+<radialGradient id="paint2_radial_1101_269" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(208.625 210.492) rotate(-139.763) scale(158.669 91.919)">
+<stop stop-color="#FF5C00"/>
+<stop offset="0.484375" stop-color="#F7B928"/>
+<stop offset="1" stop-color="#96DAE9"/>
+</radialGradient>
+</defs>
+</svg>
