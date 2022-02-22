@@ -23,6 +23,8 @@
   }
   .spacing{
     max-width: 300px;
+    position: absolute;
+    top: 140px;
   }
   .mint {
     position: absolute;
