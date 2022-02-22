@@ -13,7 +13,8 @@ export default function Links() {
     <img src={discord}></img></a>
     <a href="https://opensea.io/collection/iteratoor">
     <img src={boat}></img></a>
-    <img src={zorb}></img>
+    <a href="https://zora.co/collections/0x99FaC84B82fe53cc3f5FaeA71c3F42b42EB1901D">
+    <img src={zorb}></img></a>
     <a href="https://etherscan.io/address/0x99fac84b82fe53cc3f5faea71c3f42b42eb1901d">
     <img src={etherscan}></img></a>
     </div>

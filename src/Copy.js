@@ -23,11 +23,11 @@ export default function Copy() {
     By participating in the Iteratoor 1.0 mint, you are supporting the development of an open source design system, and helping grow a treasury to produce future cycles of Iteratoor and collect Iteratoors created by our community.
     <br></br><br></br><br></br>
     <b>What is the project roadmap?</b><br></br>
-    Join our Discord and follow us on Twitter to help shape the future of Iteratoor.<br></br><br></br><br></br>
+    Join our <a href="https://t.co/LijQ8DkoZz">Discord</a> and follow us on <a href="https://twitter.com/iteratoor">Twitter</a> to help shape the future of Iteratoor.<br></br><br></br><br></br>
     <b>Who made Iteratoor?</b><br></br>
     A small group of artists, designers, devs and friends working remotely for fun.<br></br><br></br><br></br>
     <b>What’s after this?</b><br></br>
-    We want to hear from you. What do you think Iteratoor could be? What do you want to create? Let us know on Discord and Twitter.
+    We want to hear from you. What do you think Iteratoor could be? What do you want to create? Let us know on <a href="https://t.co/LijQ8DkoZz">Discord</a> and <a href="https://twitter.com/iteratoor">Twitter</a>.
     </p>
     </div>
   );
